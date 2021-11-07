@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">كُتبي</string>
+
+    <string name="already_read">الكتب التي قرأتها</string>
+    <string name="want_to_read">الكتب التي أريد قرأتها</string>
+    <string name="favorite">الكتب المفضلة</string>
+    <string name="currently_reading" >الكتب التي أقراها حالياً</string>
+    <string name="home_page" >الصفحة الرئيسية</string>
+    <string name="email" >البريد الالكتروني</string>
+    <string name="password" >كلمة المرور</string>
+    <string name="login" >دخول</string>
+    <string name="don_t_have_an_account">ليس لديك حساب ؟</string>
+    <string name="sign_up">انشاء حساب</string>
+    <string name="forget_password">نسيت كلمة المرور ؟</string>
+    <string name="name">الاسم</string>
+    <string name="confirmpassword">تأكيد كلمة الرور</string>
+    <string name="register">تســـجيل</string>
+    <string name="already_have_an_account">لديك حساب بالفعل ؟</string>
+    <string name="book_name">اســـم الكتاب :</string>
+    <string name="author">المؤلف :</string>
+    <string name="short_description">وصف قصير :</string>
+    <string name="emailhere">ادخل بريدك الالكتروني هنـــا</string>
+    <string name="passwordhere">ادخل كلمة المرور هنـــا</string>
+    <string name="namehere">ادخل اسمك هنـــا</string>
+    <string name="confirmpasswordhere">أعد كتابة كلمة المرور هنـــا</string>
+    <string name="bookadded">تم اضـافة الكتاب</string>
+    <string name="somethingworng">هنالك مشكلة يرجى المحاولة مرة أخرى</string>
+    <string name="about">حول المطور</string>
+    <string name="sign_out">تســجيل خروج</string>
+    <string name="aboutdeveloper">تم تطوير هذا التطبيق بواسطة حذيفة المناصرة \nطالب علم حاسوب في جامعة البلقاء التطبيقية</string>
+    <string name="dissmiss">تــــم</string>
+    <string name="pages">عدد الصفحات : </string>
+    <string name="description">وصـــف الكتاب</string>
+    <string name="resetpassword">تفقد بريدك الالكتروني لاعادة تعيين كلمة المرور ...</string>
+    <string name="nobooksadded">لا يوجد كتب في قائمتك\nقــم بإضافة الكتب</string>
+    <string name="yes">نعم</string>
+    <string name="areyousure">هل انت متأكد من حذف الكتاب ؟  </string>
+    <string name="deleted">تم حذف</string>
+    <string name="delete">حــذف</string>
+    <string name="no">لا</string>
+    <string name="books">أضـــف كتب</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mybooks">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/book"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/book"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyBooks">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FavoriteActivity"
+            android:exported="true" android:label="@string/favorite"/>
+        <activity
+            android:name=".CurrentlyReadingActivity"
+            android:exported="true" android:label="@string/currently_reading"/>
+        <activity
+            android:name=".WantToReadActivity"
+            android:exported="true" android:label="@string/want_to_read"/>
+        <activity
+            android:name=".AlreadyReadBooksActivity"
+            android:exported="true" android:label="@string/already_read"/>
+        <activity
+            android:name=".ShowBookActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" android:label="@string/home_page"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

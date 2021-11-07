@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/more" android:icon="@drawable/ic_baseline_menu_24" app:showAsAction="always"
+        android:title="more">
+        <menu>
+            <item android:id="@+id/nav_alreadyRead" android:title="@string/already_read" app:showAsAction="withText" android:icon="@drawable/ic_baseline_done_24" />
+            <item android:id="@+id/nav_currentlyRead" android:title="@string/currently_reading" android:icon="@drawable/ic_baseline_menu_book_24"/>
+            <item android:id="@+id/nav_wantToRead" android:title="@string/want_to_read" android:icon="@drawable/ic_baseline_free_breakfast_24"/>
+            <item android:id="@+id/nav_favorite" android:title="@string/favorite" android:icon="@drawable/ic_baseline_favorite_24" />
+            <item android:id="@+id/nav_about" android:title="@string/about" android:icon="@drawable/info" ></item>
+            <item android:id="@+id/nav_sign_out" android:title="@string/sign_out" android:icon="@drawable/logout" ></item>
+        </menu>
+    </item>
+</menu>
